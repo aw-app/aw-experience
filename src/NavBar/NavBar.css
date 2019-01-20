@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  padding: 3vh;
+  margin-right: 3vw;
+  box-shadow: 10px 10px 5px 0px rgba(239, 234, 224, 1);
+  transition: 0.3s;
+}
+
+.navbar > a {
+  font-size: calc(20px + (14 - 12) * (100vw - 600px) / (1920 - 600));
+  font-family: noto_serifregular, serif;
+  font-weight: 400;
+  color: #dd7a0e;
+  text-decoration: none;
+}
+.navbar:hover {
+  box-shadow: 10px 10px 5px 0px #f1e5d2;
+}
