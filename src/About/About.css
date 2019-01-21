@@ -1,5 +1,5 @@
-.aa {
-  width: 99%;
-  height: 99%;
+.canvas-content {
+  width: 80vw!important;
+  height: 80vh!important;
   cursor: none;
 }
