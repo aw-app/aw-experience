@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import { FadeInUp } from 'animate-components';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Home } from './Home/Home';
 import { About } from './About/About';
